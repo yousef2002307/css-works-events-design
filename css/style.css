@@ -13,6 +13,7 @@ section h2 {
   padding: 15px;
   color: #1b2442;
   display: flex;
+  border-radius: 10px;
 }
 .container2.d-flex > div .img {
   flex: 0 0 145px;
