@@ -1,0 +1,56 @@
+body {
+  background-color: #eceff8;
+}
+section h2 {
+  text-transform: capitalize;
+  color: #1b2442;
+}
+.container2.d-flex {
+  flex-direction: column;
+}
+.container2.d-flex > div {
+  background-color: #fff;
+  padding: 15px;
+  color: #1b2442;
+  display: flex;
+}
+.container2.d-flex > div .img {
+  flex: 0 0 145px;
+  background-color: #eceff8;
+  border-radius: 7px;
+  color: #2b3350;
+  padding: 15px;
+  text-align: center;
+  margin-right: 15px;
+  align-self: center;
+  flex-shrink: 1;
+}
+.container2.d-flex > div .content {
+  flex: 1 2 0;
+}
+.container2.d-flex > div .content h4 {
+  text-transform: capitalize;
+  font-size: 30px;
+}
+.container2.d-flex > div .content p {
+  color: #3a3a3a;
+  font-size: 15px;
+}
+.container2.d-flex > div .calander {
+  flex: 0 0 170px;
+  margin-left: 15px;
+  align-self: center;
+  text-transform: capitalize;
+  /* background-color: #00f; */
+  /* padding: 13px 12px; */
+  /* border-radius: 15px;*/
+  flex-shrink: 1;
+}
+.calander span {
+  display: inline-block;
+  padding: 11px;
+  background-color: #000;
+  border-radius: 13px;
+  cursor: pointer;
+  color: #ddd;
+}
